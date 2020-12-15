@@ -7,9 +7,7 @@ days.forEach(function (item) {
       item.classList.remove('spin')
     else {
 
-      days.forEach(function (i) {
-        i.classList.remove('spin')
-      })
+     
       item.classList.toggle('spin')
     }
 
